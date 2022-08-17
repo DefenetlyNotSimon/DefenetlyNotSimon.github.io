@@ -17,7 +17,7 @@ var x = setInterval(function() {
     var { days, hours, minutes, seconds } = calculateUnits();
 
     //Anzeigen des Ergebnis
-    document.getElementById("countdownh1").innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
+    document.getElementById("countdownh1").innerHTML = (days + ":" + hours + ":" + minutes + ":" + seconds);
 
     //Text bei ablaufen
     if (distance < 0) {
